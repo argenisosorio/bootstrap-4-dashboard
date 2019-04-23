@@ -350,3 +350,8 @@
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
+/* Dropdown menu to left side*/ 
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
