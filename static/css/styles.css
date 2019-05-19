@@ -1,6 +1,6 @@
 body {
   /*background: url("../img/bg.png") no-repeat center center fixed;*/
-  background: url("../img/bg.png") no-repeat center center fixed;
+  background: url("../img/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -366,11 +366,10 @@ body {
 }
 .left-column {
   background-color: rgba(41, 41, 41, 0.29);
-  filter: blur(5px);
+  filter: blur(1px);
   padding-left: 10px;
   min-height: 100vh;
   margin-top: -72px;
-  /*border: ridge 1px #000000;*/
   position: relative;
 }
 .botonera {
@@ -388,26 +387,26 @@ body {
   font-size: 50px !important;
 }
 .fa-home:hover {
-  color: gray;
+  color: lightgray;
 }
 .fa-search {
   color: #FFFFFF;
   font-size: 50px !important;
 }
 .fa-search:hover {
-  color: gray;
+  color: lightgray;
 }
 .fa-user {
   color: #FFFFFF;
   font-size: 50px !important;
 }
 .fa-user:hover {
-  color: gray;
+  color: lightgray;
 }
 .fa-power-off {
   color: #FFFFFF;
   font-size: 50px !important;
 }
 .fa-power-off:hover {
-  color: gray;
+  color: lightgray;
 }
