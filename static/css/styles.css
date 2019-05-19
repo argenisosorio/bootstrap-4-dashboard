@@ -367,16 +367,22 @@ body {
 .left-column {
   /*background-color: #343a40 !important;*/
   /*filter: blur(2px);*/
-  background-color: rgba(41, 41, 41, 0.29);
+  /*background-color: rgba(41, 41, 41, 0.29);*/
   /*opacity: 0.5;*/
   margin-top: -72px;
   min-height: 1000px;
+  /*
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
-  filter: blur(5px);
-  border: ridge 1px #000000;
+  filter: blur(5px);*/
+  /*border: ridge 1px #000000;*/
+  background: url("../img/blur.png") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .right-column {
   margin-top: -72px;
@@ -394,5 +400,19 @@ body {
   font-size: 50px !important;
 }
 .fa-search:hover {
+  color: gray;
+}
+.fa-user {
+  color: #FFFFFF;
+  font-size: 50px !important;
+}
+.fa-user:hover {
+  color: gray;
+}
+.fa-power-off {
+  color: #FFFFFF;
+  font-size: 50px !important;
+}
+.fa-power-off:hover {
   color: gray;
 }
