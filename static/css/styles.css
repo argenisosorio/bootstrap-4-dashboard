@@ -1,6 +1,6 @@
 body {
   /*background: url("../img/bg.png") no-repeat center center fixed;*/
-  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background: url("../img/bg.png") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -365,24 +365,19 @@ body {
   opacity: 0.5;
 }
 .left-column {
-  /*background-color: #343a40 !important;*/
-  /*filter: blur(2px);*/
-  /*background-color: rgba(41, 41, 41, 0.29);*/
-  /*opacity: 0.5;*/
+  background-color: rgba(41, 41, 41, 0.29);
+  filter: blur(5px);
+  padding-left: 10px;
+  min-height: 100vh;
   margin-top: -72px;
-  min-height: 1000px;
-  /*
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);*/
   /*border: ridge 1px #000000;*/
-  background: url("../img/blur.png") no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  position: relative;
+}
+.botonera {
+  margin-top: -72px;
+  color: red;
+  position: absolute;
+  padding-left: 6vh;
 }
 .right-column {
   margin-top: -72px;
